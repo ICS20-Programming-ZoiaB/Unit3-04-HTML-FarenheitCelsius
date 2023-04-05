@@ -7,10 +7,10 @@
 "use strict"
 
 // Function
-function temperatureEntered() {
+function temperatureCalculate() {
 
 // Get user input
-  let fahrenheit = parseFloat(document.getElementById("temp").value);
+  let fahrenheit = parseFloat(document.getElementById("fahrenheit").value);
 
 // Calculation
   let celsius = 5 / 9 * (fahrenheit - 32);
